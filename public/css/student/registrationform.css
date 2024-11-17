@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span{
+    color: red;
+}
+.container{
+    margin: 0 15%;
+    padding: 3% 5%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 1rem;
+}
+.container header{
+    font-size: 1.5rem;
+    font-weight: 500 ;
+    text-align: center;
+    border-bottom: 3px solid gray;
+    padding-bottom: 35px;
+}
+.container .form{
+    margin-top: 30px;
+}
+
+.form .input-box{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.gender-box h3{
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.form .input-box input{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    font-size: 0.9rem;
+    margin-top: 8px;
+    color: #707070;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+
+}
+
+.form .column{
+    display: flex;
+    column-gap: 15px;
+}
+
+.form select {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    font-size: 0.9rem;
+    margin-top: 8px;
+    color: #707070;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+.form select option {
+    font-size: 0.9rem;
+    padding: 8px;
+    color: #707070;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+button{
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.text-danger{
+    color: red;
+}
+@media screen and (max-width: 500px){
+    .form .column{
+        flex-wrap: wrap;
+    }
+    .container{
+        border-radius: 1%;
+    }
+}
